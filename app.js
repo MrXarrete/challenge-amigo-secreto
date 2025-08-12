@@ -36,7 +36,7 @@ function sortearAmigo() {
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = '';
 
-    if (amigos.length === 0) {
+    if (amigos.length == 0) {
         alert('Adicione pelo menos um nome para sortear.');
         return;
     }
